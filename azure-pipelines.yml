@@ -21,8 +21,7 @@ steps:
     npm run build
   displayName: 'npm install and build'
 
-steps:
-- task: whitesource.ws-bolt.bolt.wss.WhiteSource Bolt@20
-  displayName: 'WhiteSource Bolt'
+
+- task: WhiteSource Bolt@20
   inputs:
-    cwd: mamtajha-ts.calculator
+    cwd: 'mamtajha-ts.calculator'
