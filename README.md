@@ -12,7 +12,6 @@ output that can be presented in a continuous integration tool like
 [![Build Status](https://dev.azure.com/mamtajha/github%20Project/_apis/build/status/mamtajha-ts.calculator?branchName=master)](https://dev.azure.com/mamtajha/github%20Project/_build/latest?definitionId=25&branchName=master)
 
 To build, simply:
-
 1. Runs `npm install` to install dependencies.
 2. Runs `npm test` to run Mocha and execute the unit tests.
 
